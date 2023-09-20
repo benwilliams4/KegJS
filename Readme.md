@@ -73,7 +73,7 @@ console.log(mean1); // 36.67
 var mean2 = filtered2.column("age").mean();
 console.log(mean2); // 37.5
 
-//Lets save our keg for later:
+//Let's save our keg for later:
 keg.toLocalStorage("myKeg");
 
 //Retrieving the data model:
